@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  height: 25vh;
+  width: 8%;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 50% 50% 90% 90%;
+  position: absolute;
+  top: 20vh;
+  left: 46%;
+  background-color: grey;
+  z-index: 1;
+}
+span {
+  font-size: xx-small;
+  margin: 1% 0;
+}
+input {
+  width: 50%;
+  font-weight: 900;
+  border-radius: 3px;
+  border: none;
+  padding: 0 0 0 5px;
+}
+.text {
+  background-color: #000;
+  border-radius: 8px 8px 10px 10px;
+  color: #fff;
+  height: 5%;
+  width: fit-content;
+}
+#count {
+  margin-right: 10%;
+}
+.band {
+  height: 15vh;
+  width: 4%;
+  position: relative;
+  left: 48%;
+  top: 10vh;
+  background-color: black;
+}
+#top {
+  border-top: transparent;
+  position: relative;
+  top: 50px;
+  border: 1px solid #000;
+}
+#bottom {
+  border-top: transparent;
+  position: relative;
+  top: 150px;
+  border: 1px solid #000;
+}
+.js {
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+#sum {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+#zero {
+  height: 15px;
+  width: 15px;
+}
